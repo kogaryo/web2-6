@@ -1,6 +1,4 @@
 @charset "utf-8";
-
-/* reset css */
 *{
   margin:0;
   padding:0;
@@ -12,7 +10,7 @@ body{
 
 header{
   padding:10px;
-  text-align:center;/* 中央揃え */
+  text-align:center;
   background-color:red;
 }
 
@@ -38,7 +36,6 @@ footer{
       float:left;
   }
   #side:after{
-    /* clearfix */
     content:"";
     display:block;
     clear:both;
